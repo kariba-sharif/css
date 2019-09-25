@@ -1,0 +1,411 @@
+            * {
+                margin: 0%;
+                padding: 0;
+            }
+            
+            body {
+                background-color: black;
+            }
+            
+            button {
+                outline: none;
+                border-radius: 10px;
+            }
+            
+            #nurka {
+                background-image: url("w.jpg");
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+            }
+            
+            #topbar {
+                height: 60px;
+                background-color: rgb(2, 2, 2);
+            }
+            
+            #topbar #left {
+                float: left;
+                font-size: 30px;
+                padding: 18px;
+                width: 25px;
+                padding: 20px;
+                color: rgb(236, 206, 206);
+            }
+            
+            #topbar #right {
+                float: right;
+                width: 50%;
+                height: 100%;
+                padding: 18px;
+            }
+            
+            #topbar b {
+                color: palevioletred;
+            }
+            
+            #topbar #right a {
+                text-align: right;
+                color: white;
+                display: inline;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 18px;
+            }
+            
+            #topbar #right a:hover {
+                background-color: rgb(243, 135, 171);
+            }
+            
+            .active {
+                background-color: rgb(177, 154, 126);
+            }
+            
+            .h1 {
+                color: pink;
+                font-family: Verdana, Tahoma, sans-serif;
+                font-size: 15px;
+                text-align: center;
+                padding: 7px;
+            }
+            
+            .h1 b {
+                color: rgb(238, 226, 228);
+                text-align: center;
+                font-style: italic;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 90px;
+            }
+            
+            .p {
+                color: whitesmoke;
+                text-align: left;
+                font-style: italic;
+                font-size: 15px;
+                padding: 20px;
+                font-family: Verdana, Tahoma, sans-serif;
+            }
+            
+            .image {
+                background-image: url("ladylips.jpg");
+                height: 100vh;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .h2 {
+                color: rgb(31, 28, 31);
+                text-align: left;
+                font-size: 15px;
+                font-family: 'Courier New', Courier, monospace;
+                padding: 20px;
+                font-style: italic;
+                opacity: 500px;
+            }
+            
+            .services {
+                background-image: url(m.jpg);
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+            }
+            
+            .contact {
+                background-image: url(A.jpg);
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+            }
+            
+            #h1 {
+                text-align: right;
+                color: rgb(109, 12, 45);
+                text-decoration: none;
+                font-size: 40px;
+                padding: 80x;
+                float: right;
+            }
+            
+            .topbar {
+                height: 60px;
+                background-color: white;
+            }
+            
+            .topbar .left {
+                float: left;
+                font-size: 30px;
+                padding: 18px;
+                width: 25px;
+                padding: 20px;
+                color: rgb(236, 206, 206);
+            }
+            
+            .topbar .right {
+                float: right;
+                width: 50%;
+                height: 100%;
+                padding: 18px;
+            }
+            
+            .topbar b {
+                color: palevioletred;
+            }
+            
+            .topbar .right a {
+                text-align: right;
+                color: black;
+                display: inline;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 18px;
+            }
+            
+            .topbar .right a:hover {
+                background-color: plum;
+            }
+            
+            .top {
+                height: 60px;
+                background-color: rgb(233, 213, 219);
+            }
+            
+            .top .left {
+                float: left;
+                font-size: 30px;
+                padding: 18px;
+                width: 25px;
+                padding: 20px;
+                color: rgb(223, 113, 113);
+            }
+            
+            .top .right {
+                float: right;
+                width: 50%;
+                height: 100%;
+                padding: 18px;
+            }
+            
+            .top b {
+                color: palevioletred;
+            }
+            
+            .top .right a {
+                text-align: right;
+                color: black;
+                display: inline;
+                text-decoration: none;
+                font-size: 18px;
+                padding: 18px;
+            }
+            
+            .top .right a:hover {
+                background-color: rgba(236, 51, 113, 0.863);
+            }
+            
+            #footer {
+                margin: auto;
+                position: fixed;
+                background-color: rgb(219, 214, 214);
+                font-size: 15px;
+                bottom: 0px;
+                padding-top: 0%;
+                width: 110%
+            }
+            
+            #footer ol {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                color: rgb(204, 39, 94);
+                padding: 10px 0px;
+            }
+            
+            #footer ol li {
+                float: right;
+                padding-right: 200px;
+                font-size: 25px;
+                text-decoration: none;
+                list-style: none;
+            }
+            
+            #kay {
+                height: 42%;
+                text-align: center;
+                float: right;
+            }
+            
+            #kay h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+            #kay h2 {
+                font-style: italic;
+            }
+            
+            #kay p {
+                font-style: initial;
+                font-size: 20px;
+                color: white;
+            }
+            
+            #button {
+                border: none;
+                background-color: black;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+            }
+            
+            #kariba {
+                height: 50%;
+                float: right;
+                width: 55%;
+                padding-right: 450px;
+            }
+            
+            #kariba h1 {
+                font-style: initial;
+                font-size: 100px;
+                color: pink;
+                text-align: right;
+                /* padding-left: 150px; */
+                margin: 0 auto;
+            }
+            
+            #kariba b {
+                color: palevioletred;
+            }
+            
+            #forms {
+                float: right;
+                text-align: center;
+                font-size: 23px;
+                /* padding-left: 50px; */
+            }
+            
+            #forms input {
+                width: 300px;
+                padding: 5px;
+                font-size: 15px;
+            }
+            
+            #forms #submitButton {
+                width: 100px;
+                padding: 5px;
+                font-size: 20px;
+                background-color: palevioletred;
+                border-radius: 10px;
+                outline: none;
+            }
+            
+            #forms #submitButton:hover {
+                color: white;
+            }
+            
+            .bottombar {
+                height: 500px;
+                padding: 0;
+                margin-top: 0px;
+            }
+            
+            .bottombar .left {
+                height: 500px;
+                width: 59%;
+                background-color: rgba(255, 255, 255, 0.185);
+                float: left;
+            }
+            
+            .bottombar h1 {
+                color: pink;
+                font-size: 55px;
+                font-style: initial;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                font: bold;
+            }
+            
+            .bottombar b {
+                color: palevioletred;
+            }
+            
+            .bottombar p {
+                color: whitesmoke;
+                font-size: 28px;
+                font-style: initial;
+                text-align: center;
+                padding: 12px;
+            }
+            
+            .bottombar .right {
+                height: 100%;
+                width: 41%;
+                background-image: url(paki.jpg);
+                float: right;
+            }
+            
+            #hafsa {
+                padding-top: 200px;
+                text-align: center;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            
+            #hafsa h1 {
+                font-size: 55px;
+                color: pink;
+            }
+            
+            #hafsa b {
+                color: palevioletred;
+            }
+            
+            #hafsa ol li {
+                font-size: 28px;
+                font-family: 'Times New Roman', Times, serif;
+                padding: 8px;
+            }
+            
+            #moe {
+                float: right;
+            }
+            
+            #moe p {
+                text-align: center;
+                color: whitesmoke;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 29px;
+                padding-left: 150px;
+                padding-right: 100px;
+            }
+            
+            #mum {
+                color: white;
+            }
+            
+            #mum h1 {
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                padding-right: 450px;
+            }
+            
+            #mum p {
+                text-align: left;
+                font-size: 20px;
+                padding-right: 850;
+                padding-left: 150px;
+            }
+            
+            #mum b {
+                color: palevioletred;
+            }
+            
+            #mum h4 {
+                text-align: center;
+                padding-right: 450;
+                padding-top: 400px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 19px;
+            }
